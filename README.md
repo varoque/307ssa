@@ -178,19 +178,19 @@ de seguridad.
 
 **Bibliografía:**
 
-- Cryptography and network security principles and practice. William
-  Stallings. Pearson Education. ISBN: 978-1-292-15858-7. 2017.
-- Guide to Computer Network Security. Joseph Migga Kizza. Springer. ISBN
-  978-3-030-38140-0, 2020.
-- Network Security and Cryptography. Sarhan M. Musa, Mercury Learning &
-  Information, ISBN: 978-1942270836, 2022.
-- Computer & Internet Security: A Hands-on Approach. Wenliang Du
-  (autor), Wenliang Du, ISBN: 978-1733003933, 2017.
+- [Cryptography and network security principles and practice. William
+  Stallings. Pearson Education. ISBN: 978-1-292-15858-7. 2017.](Bibliography/cryptography-and-network-security_-principles-and-practice-7th-global-edition.pdf)
+- [Guide to Computer Network Security. Joseph Migga Kizza. Springer. ISBN
+  978-3-030-38140-0, 2020.](Bibliography/guide-to-computer-network-security-5th-edition-3030381404-9783030381400-9783030381417_compress.pdf)
+- [Network Security and Cryptography. Sarhan M. Musa, Mercury Learning &
+  Information, ISBN: 978-1942270836, 2022.](Bibliography/_OceanofPDF.com_Network_Security_and_Cryptography_2nd_Ed_-_Sarhan_M_Musa.pdf)
+- [Computer & Internet Security: A Hands-on Approach. Wenliang Du
+  (autor), Wenliang Du, ISBN: 978-1733003933, 2017.](Bibliography/Computer Security A Hands-on Approach -- Wenliang Du -- Oct 12, 2017 -- CreateSpace Independent Publishing Platform -- 154836794X -- eeff5e70600aca0893ca3fd57b447610 -- Anna’s Archive-1.pdf)
 
 ---
 
 ### Orientaciones para el estudio
 
-> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](https://github.com/varoque/307ssa/blob/main/Encuesta%20sobre%20conocimientos%20base%20para%20el%20curso%20Seguridad%20en%20Servicios%20y%20Aplicaciones(%E6%9C%8D%E5%8A%A1%E5%92%8C%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7).docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
+> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](Encuesta sobre conocimientos base para el curso Seguridad en Servicios y Aplicaciones(服务和应用程序的安全性).docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
 > 1. Las lecturas y laboratorios se irán actualizando en este repositorio.
 
