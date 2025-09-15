@@ -185,12 +185,12 @@ de seguridad.
 - [Network Security and Cryptography. Sarhan M. Musa, Mercury Learning &
   Information, ISBN: 978-1942270836, 2022.](Bibliography/_OceanofPDF.com_Network_Security_and_Cryptography_2nd_Ed_-_Sarhan_M_Musa.pdf)
 - [Computer & Internet Security: A Hands-on Approach. Wenliang Du
-  (autor), Wenliang Du, ISBN: 978-1733003933, 2017.](Bibliography/Computer Security A Hands-on Approach -- Wenliang Du -- Oct 12, 2017 -- CreateSpace Independent Publishing Platform -- 154836794X -- eeff5e70600aca0893ca3fd57b447610 -- Anna’s Archive-1.pdf)
+  (autor), Wenliang Du, ISBN: 978-1733003933, 2017.](Bibliography/Computer Security A Handson Approach Wenliang Du.pdf)
 
 ---
 
 ### Orientaciones para el estudio
 
-> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](Encuesta sobre conocimientos base para el curso Seguridad en Servicios y Aplicaciones(服务和应用程序的安全性).docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
+> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](Encuesta sobre conocimientos base para el curso Seguridad en Servicios y Aplicaciones.docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
 > 1. Las lecturas y laboratorios se irán actualizando en este repositorio.
 
