@@ -2,7 +2,7 @@
 ### Orientaciones para el estudio
 
 > 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](Encuesta_sobre_conocimientos_base_para_el_curso_Seguridad_en_Servicios_yAplicaciones.docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
-> 1. Las lecturas y laboratorios se irán actualizando en este repositorio, en las carpetas correspondientes a cada Tema. Debe revisar el archivo "Orientaciones para el tema.md"
+> 1. Las lecturas y actividades pr'acticas se irán actualizando en este repositorio, en las carpetas correspondientes a cada Tema. Debe revisar el archivo "Orientaciones para el tema.md"
 
 ---
 
