@@ -1,8 +1,9 @@
 # 307ssa
-### Orientaciones para el estudio
+![GitHub](https://img.shields.io/github/license/varoque/307ssa) 
+## Orientaciones para el estudio
 
 > 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](Encuesta_sobre_conocimientos_base_para_el_curso_Seguridad_en_Servicios_yAplicaciones.docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
-> 1. Las lecturas y laboratorios se irán actualizando en este repositorio, en las carpetas correspondientes a cada Tema. Debe revisar el archivo "Orientaciones para el tema.md"
+> 1. Las lecturas y actividades prácticas se irán actualizando en este repositorio, en las carpetas correspondientes a cada Tema. Debe revisar el archivo "Orientaciones para el tema.md"
 
 ---
 
@@ -33,5 +34,5 @@ email: <varoque@uci.cu>
 - [Computer & Internet Security: A Hands-on Approach. Wenliang Du
   (autor), Wenliang Du, ISBN: 978-1733003933, 2017.](Bibliography/Computer_Security_A_Hands-on_Approach_Wenliang_Du_2017.pdf)
 
-#### Puede ver el programa completo del curso en: [Programa del curso Seguridad en Servicios y Aplicaciones](Programa_del_curso_Seguridad_en_Servicios_y_Aplicaciones.md)
+### Puede ver el programa completo del curso en: [Programa del curso Seguridad en Servicios y Aplicaciones](Programa_del_curso_Seguridad_en_Servicios_y_Aplicaciones.md)
 
