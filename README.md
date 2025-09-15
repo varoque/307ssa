@@ -191,4 +191,6 @@ de seguridad.
 
 ### Orientaciones para el estudio
 
-> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Es anonima y se puede descargar en: [documento Word]()
+> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Se puede descargar en: [documento Word](https://github.com/varoque/307ssa/blob/main/Encuesta%20sobre%20conocimientos%20base%20para%20el%20curso%20Seguridad%20en%20Servicios%20y%20Aplicaciones(%E6%9C%8D%E5%8A%A1%E5%92%8C%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%AE%89%E5%85%A8%E6%80%A7).docx). Una vez llenada, deben enviar el documento a la dirección email: varoque@uci.cu.
+> 1. Las lecturas y laboratorios se irán actualizando en este repositorio.
+
