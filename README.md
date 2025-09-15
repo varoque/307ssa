@@ -1,17 +1,15 @@
 # 307ssa
-Curso Seguridad en Servicios y Aplicaciones (服务和应用程序的安全性)
+### Curso Seguridad en Servicios y Aplicaciones (服务和应用程序的安全性)
 
-Programa del curso "Seguridad en Servicios y Aplicaciones"
+#### Programa del curso "Seguridad en Servicios y Aplicaciones"
 
 Nombre y apellidos del profesor: Victor Alejandro Roque Dominguez
 
 email: <varoque@uci.cu>
 
-1.  Descripción del curso "Seguridad en Servicios y Aplicaciones":
-
-    - Código del curso:
-
-    - Objetos del curso:
+1. Descripción del curso "Seguridad en Servicios y Aplicaciones":
+   - Código del curso:
+   - Objetos del curso:
 
 a)  Naturaleza del curso:
 
@@ -87,21 +85,18 @@ f)  Métodos de evaluación y descripción de los resultados.
 > **Propósito de la enseñanza:** A través del estudio del tema, los
 > estudiantes pueden comprender los fundamentos de la seguridad y de la
 > criptografía.
->
+
 > **Requisitos de enseñanza:**
-
-1.  Comprender los conceptos básicos de la seguridad.
-
-2.  Dominar los fundamentos de la criptografía y sus servicios.
+>
+> 1. Comprender los conceptos básicos de la seguridad.
+> 2. Dominar los fundamentos de la criptografía y sus servicios.
 
 > **Contenido didáctico:**
-
-1.  Conceptos y principios básicos de seguridad.
-
-2.  Servicios y mecanismos de seguridad.
-
-3.  Introducción a la criptografía. Algoritmos simétricos y asimétricos.
-    Otras primitivas criptográficas: funciones Hash y MAC.
+>
+> 1. Conceptos y principios básicos de seguridad.
+> 2. Servicios y mecanismos de seguridad.
+> 3. Introducción a la criptografía. Algoritmos simétricos y asimétricos.
+> 4. Otras primitivas criptográficas: funciones Hash y MAC.
 
 **Tema 2:** Esquemas, protocolos y mecanismos de soporte. Herramientas
 de seguridad.
@@ -111,31 +106,23 @@ de seguridad.
 > esquemas y mecanismos criptográficos avanzados que sirven de soporte a
 > los servicios de seguridad, así como de utilizar herramientas
 > esenciales para asegurar servicios y aplicaciones en entornos de red.
->
+
 > **Requisitos de enseñanza:**
+>
+> 1. Comprender los elementos fundamentales de la gestión de claves 
+> 2. Dominar los mecanismos de control de acceso
+> 3. Comprender los esquemas, protocolos y mecanismos de seguridad.
+> 4. Dominar herramientas para asegurar servicios y aplicaciones.
 
-1.  Comprender los elementos fundamentales de la gestión de claves
-
-2.  Dominar los mecanismos de control de acceso
-
-3.  Comprender los esquemas, protocolos y mecanismos de seguridad.
-
-4.  Dominar herramientas para asegurar servicios y aplicaciones.
-
-**Contenido didáctico:**
-
-1.  Gestión de claves. Buenas prácticas para la protección. Estándares
-    PKCS e X.509.
-
-2.  Protocolos y mecanismos criptográficos avanzados.
-
-3.  Mecanismos de control de acceso
-
-4.  Sesión remota segura (SSH)
-
-5.  Cifrado de datos (SSL/TLS)
-
-6.  Correo electrónico seguro (SMTPS, SMIME, SPF, DKIM, DMARC)
+> **Contenido didáctico:**
+>
+> 1. Gestión de claves. Buenas prácticas para la protección. Estándares
+>    PKCS e X.509. 
+> 2. Protocolos y mecanismos criptográficos avanzados. 
+> 3. Mecanismos de control de acceso 
+> 4. Sesión remota segura (SSH) 
+> 5. Cifrado de datos (SSL/TLS) 
+> 6. Correo electrónico seguro (SMTPS, SMIME, SPF, DKIM, DMARC)
 
 **Tema 3:** Seguridad en aplicaciones web
 
@@ -145,31 +132,25 @@ de seguridad.
 > implementar los mecanismos de seguridad a nivel de transporte y
 > aplicación, y evaluar la seguridad de una aplicación web mediante
 > técnicas y herramientas específicas.
->
+
 > **Requisitos de enseñanza:**
-
-1.  Identificar y comprender las vulnerabilidades y vectores de ataque
-    comunes en aplicaciones web.
-
-2.  Dominar la implementación y el funcionamiento de la seguridad a
-    nivel de transporte (HTTPS).
-
-3.  Comprender los mecanismos de control de acceso y gestión de
-    identidad en la web.
-
-4.  Ser capaz de evaluar la seguridad de una aplicación web utilizando
-    metodologías y herramientas establecidas.
+>
+> 1. Identificar y comprender las vulnerabilidades y vectores de ataque
+>    comunes en aplicaciones web.
+> 2. Dominar la implementación y el funcionamiento de la seguridad a
+>    nivel de transporte (HTTPS).
+> 3. Comprender los mecanismos de control de acceso y gestión de
+>    identidad en la web.
+> 4. Ser capaz de evaluar la seguridad de una aplicación web utilizando
+>    metodologías y herramientas establecidas.
 
 > **Contenido didáctico:**
-
-1.  Vulnerabilidades web y ataques
-
-2.  Seguridad a nivel de transporte(HTTPS)
-
-3.  Control de acceso en la web y gestión de identidad(WAF y protocolos
-    de autenticación)
-
-4.  Evaluación de la seguridad en aplicaciones web
+>
+> 1. Vulnerabilidades web y ataques 
+> 2. Seguridad a nivel de transporte(HTTPS) 
+> 3. Control de acceso en la web y gestión de identidad(WAF y protocolos
+>    de autenticación) 
+> 4. Evaluación de la seguridad en aplicaciones web
 
 **Tema 4:** Seguridad en sistemas operativos
 
@@ -179,36 +160,35 @@ de seguridad.
 > entornos de escritorio y virtualizados, para proteger la
 > infraestructura base sobre la que se ejecutan las aplicaciones y
 > servicios.
->
+
 > **Requisitos de enseñanza:**
-
-1.  Comprender los principios de seguridad específicos para sistemas
-    operativos de escritorio.
-
-2.  Analizar los desafíos y mejores prácticas de seguridad en entornos
-    virtualizados.
-
-3.  Identificar y configurar mecanismos de prevención nativos del
-    sistema operativo para mitigar riesgos.
+>
+> 1. Comprender los principios de seguridad específicos para sistemas
+>    operativos de escritorio.
+> 2. Analizar los desafíos y mejores prácticas de seguridad en entornos
+>    virtualizados.
+> 3. Identificar y configurar mecanismos de prevención nativos del
+>    sistema operativo para mitigar riesgos.
 
 > **Contenido didáctico:**
-
-1.  Seguridad en sistemas de escritorio
-
-2.  Seguridad en entornos virtualizados
-
-3.  Mecanismos de prevención
+>
+> 1. Seguridad en sistemas de escritorio
+> 2. Seguridad en entornos virtualizados
+> 3. Mecanismos de prevención
 
 **Bibliografía:**
 
 - Cryptography and network security principles and practice. William
   Stallings. Pearson Education. ISBN: 978-1-292-15858-7. 2017.
-
 - Guide to Computer Network Security. Joseph Migga Kizza. Springer. ISBN
   978-3-030-38140-0, 2020.
-
 - Network Security and Cryptography. Sarhan M. Musa, Mercury Learning &
   Information, ISBN: 978-1942270836, 2022.
-
 - Computer & Internet Security: A Hands-on Approach. Wenliang Du
   (autor), Wenliang Du, ISBN: 978-1733003933, 2017.
+
+---
+
+### Orientaciones para el estudio
+
+> 1. Realizar la encuesta de conocimientos necesarios para la asignatura. Es anonima y se puede descargar en: [documento Word]()
