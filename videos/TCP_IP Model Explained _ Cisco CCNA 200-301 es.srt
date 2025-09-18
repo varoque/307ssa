@@ -1,0 +1,307 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hola, ¿qué pasa chicos?  Bienvenido a CertBros
+
+2
+00:00:02,434 --> 00:00:06,306
+En este video, vamos a hablar sobre el modelo TCP/IP.
+
+3
+00:00:17,478 --> 00:00:21,518
+Advertencia rápida: haremos mucha referencia al modelo OSI aquí,
+
+4
+00:00:21,648 --> 00:00:25,968
+así que si aún no has visto el video, míralo primero y luego vuelve.
+
+5
+00:00:26,647 --> 00:00:31,009
+Bien, entonces, ¿qué es el modelo TCP/IP?  Es un modelo para
+
+6
+00:00:31,009 --> 00:00:36,948
+estandarizar las redes de computadoras.  ¿Te suena
+familiar?  Debería porque es la misma
+
+7
+00:00:36,948 --> 00:00:41,371
+descripción que el modelo OSI.
+Ahora bien, el modelo OSI, si bien es ampliamente
+
+8
+00:00:41,371 --> 00:00:47,770
+referenciado, no se utiliza en el mundo real;
+sin embargo, el modelo TCP/IP es el verdadero.
+
+9
+00:00:47,770 --> 00:00:53,608
+Afortunadamente, aquí no es tan diferente:
+el modelo TCP/IP.
+
+10
+00:00:54,000 --> 00:00:59,262
+Cuatro capas simples, aplicación, transporte, internet y enlace.
+
+11
+00:00:59,886 --> 00:01:07,614
+Y al igual que el modelo OSI, está numerado de abajo hacia arriba, pero la dirección depende de si está enviando o recibiendo tráfico.
+
+12
+00:01:08,062 --> 00:01:12,270
+Así que este es el modelo original, pero se ha actualizado.
+
+13
+00:01:12,270 --> 00:01:15,549
+Aquí está el nuevo modelo recién diseñado.
+
+14
+00:01:16,526 --> 00:01:20,744
+Una capa adicional y una capa renombrada,
+
+15
+00:01:20,744 --> 00:01:21,536
+eso es todo.
+
+16
+00:01:21,943 --> 00:01:25,779
+La capa de enlace se ha
+dividido en enlace de datos y física,
+
+17
+00:01:26,105 --> 00:01:29,595
+y la capa de Internet ha
+cambiado de nombre a la capa de red. ¿
+
+18
+00:01:30,084 --> 00:01:30,884
+Simple verdad?  Se
+
+19
+00:01:31,237 --> 00:01:36,413
+pone aún mejor cuando comparamos el modelo TCP/IP con el modelo OSI.
+
+20
+00:01:37,091 --> 00:01:41,686
+Ahora, si recuerdas, el modelo OSI
+tiene siete capas en comparación con las cinco que tenemos aquí,
+
+21
+00:01:42,404 --> 00:01:46,357
+pero cuando lo miras,
+notarás que la presentación de la aplicación y
+
+22
+00:01:46,357 --> 00:01:51,797
+las capas de sesión se muestran simplemente como
+capa de aplicación en el modelo TCP/IP,
+
+23
+00:01:52,055 --> 00:01:56,855
+todas las demás capas se alinean bien,
+lo cual es genial porque ya deberíamos
+
+24
+00:01:56,855 --> 00:01:57,877
+saber el concepto de cómo funciona esto.
+
+25
+00:01:59,206 --> 00:02:00,782
+Así que recordemos los
+
+26
+00:02:00,782 --> 00:02:06,002
+protocolos y dispositivos en cada capa.  En
+la capa de aplicación tenemos
+
+27
+00:02:06,002 --> 00:02:12,218
+protocolos de aplicación como HTTP, FTP
+y SMTP.
+
+28
+00:02:12,530 --> 00:02:21,316
+Los dos protocolos de transporte más comunes son TCP y UDP.
+Aquí también se agregan los números de puerto.  En la capa de red
+
+29
+00:02:21,316 --> 00:02:26,881
+tenemos el Protocolo de Internet o IP.  Los
+enrutadores también operan en esta capa.
+
+30
+00:02:27,139 --> 00:02:29,172
+La capa de enlace de datos contiene
+
+31
+00:02:29,461 --> 00:02:35,171
+conmutadores Ethernet, generalmente en esta capa, aunque se pueden conseguir
+conmutadores de capa 3 que tienen algunas capacidades de enrutamiento.
+
+32
+00:02:36,948 --> 00:02:39,895
+Finalmente, tenemos la capa física.  Piense en todo lo que
+
+33
+00:02:39,895 --> 00:02:44,098
+podemos tocar y sentir aquí.  Cosas como
+cables y tarjetas de interfaz de red.
+
+34
+00:02:46,445 --> 00:02:52,245
+Bien, a medida que enviamos datos, cada capa agregará
+su propia información.  Este proceso
+
+35
+00:02:52,245 --> 00:02:58,243
+se llama encapsulación.  Cuando llegamos a la
+capa física, los datos se transmiten
+
+36
+00:02:58,243 --> 00:03:02,297
+al dispositivo receptor.
+Luego, el dispositivo receptor comienza a
+
+37
+00:03:02,297 --> 00:03:07,053
+descapsular los datos.  Vimos esto en el
+modelo OSI, pero en este vídeo lo
+
+38
+00:03:07,053 --> 00:03:13,000
+veremos más de cerca.  Comenzamos con nuestros
+datos de aplicación en la capa 5 y luego los
+
+39
+00:03:13,000 --> 00:03:17,945
+pasamos a la siguiente capa, donde se
+agrega la información de transporte.  Digamos que
+
+40
+00:03:17,945 --> 00:03:23,193
+es un encabezado TCP.  Cada vez que se agrega un encabezado,
+este contendrá
+
+41
+00:03:23,193 --> 00:03:28,287
+información específica.  Por ejemplo, un encabezado TCP
+contendrá cosas como el
+
+42
+00:03:28,287 --> 00:03:33,000
+número de puerto de origen y destino, números de secuencia y algunos bits más de información.
+
+43
+00:03:33,286 --> 00:03:36,190
+Repasaremos esto con más detalle en un
+vídeo aparte.  Luego pasamos a la
+
+44
+00:03:36,190 --> 00:03:42,520
+capa de red donde agregamos el encabezado IP.
+Esto contendrá la
+
+45
+00:03:42,520 --> 00:03:48,430
+dirección IP de origen y destino, así como otros
+datos.  Por último tenemos
+
+46
+00:03:48,430 --> 00:03:54,433
+la capa de enlace de datos.  Aquí agregamos no solo
+un encabezado sino también un tráiler.  El
+
+47
+00:03:54,610 --> 00:03:58,180
+encabezado contiene la
+dirección MAC principal, de destino y de origen, y
+
+48
+00:03:58,180 --> 00:04:00,078
+el final contiene información de verificación de errores
+que el lado receptor puede
+
+49
+00:04:00,078 --> 00:04:06,261
+verificar y asegurarse de que los datos se hayan
+recibido correctamente.  Una vez que los datos llegan a
+
+50
+00:04:06,261 --> 00:04:09,564
+la capa física, se transmiten físicamente,
+
+51
+00:04:09,564 --> 00:04:14,747
+por lo que hemos pasado por el
+proceso de encapsulación.  Es importante tener en cuenta que en
+
+52
+00:04:14,747 --> 00:04:22,036
+cada etapa los datos tienen un nombre específico.  En la capa cinco los datos se denominan, bueno,
+
+53
+00:04:22,036 --> 00:04:26,415
+simplemente se llaman datos en esta etapa.  Una vez
+agregada la información de transporte,
+
+54
+00:04:26,415 --> 00:04:31,455
+ahora se denomina segmento.  Al agregar la
+información de la capa de red, nuestro
+
+55
+00:04:31,455 --> 00:04:38,114
+segmento se convierte en un paquete y, finalmente, una vez que agregamos
+nuestra información de enlace de datos, el paquete
+
+56
+00:04:38,114 --> 00:04:44,633
+se convierte en un marco.  Una vez que se han transmitido los datos, el ordenador receptor desencapsula
+
+57
+00:04:44,633 --> 00:04:48,481
+la información.  Verificará
+la dirección MAC de destino para ese
+
+58
+00:04:48,481 --> 00:04:53,211
+marco y si el marco está destinado a
+nuestra computadora, se procesará más;
+
+59
+00:04:53,699 --> 00:04:58,308
+luego, la computadora verifica
+nuevamente la información IP de los paquetes; si el
+
+60
+00:04:58,308 --> 00:05:01,258
+paquete está destinado a nuestra computadora, se
+procesa más.
+
+61
+00:05:02,899 --> 00:05:07,340
+Se lee la información de transporte y los
+datos de la aplicación se envían a la
+
+62
+00:05:07,340 --> 00:05:13,314
+aplicación receptora.  Así que eso es todo sobre el modelo TCP/IP.
+Después de mirar el modelo OSI,
+
+63
+00:05:13,314 --> 00:05:18,199
+afortunadamente no hay mucho más que
+aprender.  Este vídeo es parte de nuestro
+
+64
+00:05:18,199 --> 00:05:21,778
+curso completo CCNA que se puede encontrar en la
+descripción.
+
+65
+00:05:22,999 --> 00:05:30,252
+Si te gusto este video no olvides darle like, comentar y suscribirte.  Los
+comentarios de ustedes realmente ayudan al canal,
+
+66
+00:05:30,578 --> 00:05:33,517
+gracias por mirar.

@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:02,000
+Hey whats up guys? Welcome to CertBros
+
+2
+00:00:02,434 --> 00:00:06,306
+In this video, we're going to be talking about the TCP/IP model
+
+3
+00:00:17,478 --> 00:00:21,518
+Quick warning, we're going to be referencing the OSI model a lot here
+
+4
+00:00:21,648 --> 00:00:25,968
+so if you haven't already watched that video check that out first then come back
+
+5
+00:00:26,647 --> 00:00:31,009
+ok so what is the TCP/IP model? It's a model to
+
+6
+00:00:31,009 --> 00:00:36,948
+standardize computer networking. Sound
+familiar? It should because it's the same
+
+7
+00:00:36,948 --> 00:00:41,371
+description as the OSI model.
+Now the OSI model while widely
+
+8
+00:00:41,371 --> 00:00:47,770
+referenced isn't used in the real world
+the TCP/IP model, however, is the real deal
+
+9
+00:00:47,770 --> 00:00:53,608
+Thankfully is not that different
+here is the TCP/IP model.
+
+10
+00:00:54,000 --> 00:00:59,262
+Four simple layers, application, transport, internet and link
+
+11
+00:00:59,886 --> 00:01:07,614
+And just like the OSI model, it's numbered from the bottom up, but the direction depends on if you're sending or receiving traffic
+
+12
+00:01:08,062 --> 00:01:12,270
+So this is the original model but it has been updated
+
+13
+00:01:12,270 --> 00:01:15,549
+Here is the brand new freshly designed model
+
+14
+00:01:16,526 --> 00:01:20,744
+One extra layer and one renamed layer
+
+15
+00:01:20,744 --> 00:01:21,536
+that's it
+
+16
+00:01:21,943 --> 00:01:25,779
+the link layer has been
+split into datalink and physical
+
+17
+00:01:26,105 --> 00:01:29,595
+and the internet layer has
+been renamed the network layer
+
+18
+00:01:30,084 --> 00:01:30,884
+simple right?
+
+19
+00:01:31,237 --> 00:01:36,413
+It gets even better when we compare the TCP/IP model to the OSI model
+
+20
+00:01:37,091 --> 00:01:41,686
+Now if you remember the OSI model
+has seven layers compared to our five here
+
+21
+00:01:42,404 --> 00:01:46,357
+but when you look at it you'll
+notice the application presentation and
+
+22
+00:01:46,357 --> 00:01:51,797
+the session layers are just shown as
+application layer in the tcp/ip model
+
+23
+00:01:52,055 --> 00:01:56,855
+all the other layers line up nicely
+which is great because we should already
+
+24
+00:01:56,855 --> 00:01:57,877
+know the concept of how this works
+
+25
+00:01:59,206 --> 00:02:00,782
+So let's remind ourselves about the
+
+26
+00:02:00,782 --> 00:02:06,002
+protocols and devices at each layer. At
+the application layer we have
+
+27
+00:02:06,002 --> 00:02:12,218
+application protocols such as HTTP FTP
+and SMTP.
+
+28
+00:02:12,530 --> 00:02:21,316
+The two most common transport protocols are TCP and UDP. Port numbers
+are also added here. At the network layer
+
+29
+00:02:21,316 --> 00:02:26,881
+we have the Internet Protocol or IP.
+Routers also operate at this layer.
+
+30
+00:02:27,139 --> 00:02:29,172
+The data link layer contains ethernet
+
+31
+00:02:29,461 --> 00:02:35,171
+Switches typically at this layer, although you can get layer
+3 switches that have some routing capabilities
+
+32
+00:02:36,948 --> 00:02:39,895
+Finally, we have the physical layer. Think of everything we
+
+33
+00:02:39,895 --> 00:02:44,098
+can touch and feel here. Things like
+cables and network interface cards
+
+34
+00:02:46,445 --> 00:02:52,245
+Ok, so as we send data each layer will add
+its own bit of information. This process
+
+35
+00:02:52,245 --> 00:02:58,243
+is called encapsulation. When we hit the
+physical layer the data is transmitted
+
+36
+00:02:58,243 --> 00:03:02,297
+over to the receiving device. The
+receiving device then starts to
+
+37
+00:03:02,297 --> 00:03:07,053
+decapsulate the data. We saw this in the
+OSI model but in this video we're going
+
+38
+00:03:07,053 --> 00:03:13,000
+to take a closer look. We start with our
+application data at layer 5 this is then
+
+39
+00:03:13,000 --> 00:03:17,945
+passed down to the next layer where the
+transport information is added. Let's say
+
+40
+00:03:17,945 --> 00:03:23,193
+is a TCP header. Each time a header is
+added this will contain specific
+
+41
+00:03:23,193 --> 00:03:28,287
+information. For example a TCP header
+will contain things like the source and
+
+42
+00:03:28,287 --> 00:03:33,000
+destination port number, sequence numbers and a few more bits of information.
+
+43
+00:03:33,286 --> 00:03:36,190
+We'll go over this in more detail in a
+separate video. We then move to the
+
+44
+00:03:36,190 --> 00:03:42,520
+network layer where we add the IP header.
+This will contain the source and
+
+45
+00:03:42,520 --> 00:03:48,430
+destination IP address as well as some
+other bits of information. Lastly we have
+
+46
+00:03:48,430 --> 00:03:54,433
+the data link layer. Here we add not only
+a header but a trailer as well. The
+
+47
+00:03:54,610 --> 00:03:58,180
+header contains main lead the
+destination and source MAC address and
+
+48
+00:03:58,180 --> 00:04:00,078
+the trailer contains some error checking
+information that the receiving side can
+
+49
+00:04:00,078 --> 00:04:06,261
+check and make sure the data has been
+received correctly. Once the data hits
+
+50
+00:04:06,261 --> 00:04:09,564
+the physical layer it is physically
+transmitted
+
+51
+00:04:09,564 --> 00:04:14,747
+so we've gone through the encapsulation
+process. It's important to note that at
+
+52
+00:04:14,747 --> 00:04:22,036
+each stage the data has a specific name. At layer five the data is called, well
+
+53
+00:04:22,036 --> 00:04:26,415
+it's just called data at this stage. Once
+the transport information has been added
+
+54
+00:04:26,415 --> 00:04:31,455
+it's now called a segment. Adding the
+network layer information makes our
+
+55
+00:04:31,455 --> 00:04:38,114
+segment a packet and finally once we add
+our data link information the packet
+
+56
+00:04:38,114 --> 00:04:44,633
+becomes a frame. Now once data has been transmitted the receiving computer decapsulates
+
+57
+00:04:44,633 --> 00:04:48,481
+the information. It will check
+the destination MAC address for that
+
+58
+00:04:48,481 --> 00:04:53,211
+frame and if the frame is destined for
+our computer it's processed further
+
+59
+00:04:53,699 --> 00:04:58,308
+the computer then checks the IP
+information off the packets again if the
+
+60
+00:04:58,308 --> 00:05:01,258
+packet is destined for our computer is
+processed further.
+
+61
+00:05:02,899 --> 00:05:07,340
+The transport information is read and the application
+data is sent to the receiving
+
+62
+00:05:07,340 --> 00:05:13,314
+application. So that's it for the TCP/IP
+model after looking at the OSI model
+
+63
+00:05:13,314 --> 00:05:18,199
+thankfully there isn't much else to
+learn. This video is part of our full
+
+64
+00:05:18,199 --> 00:05:21,778
+CCNA course which can be found in the
+description.
+
+65
+00:05:22,999 --> 00:05:30,252
+If you like this video, don't forget to like, comment and subscribe. The
+feedback from you guys really does help the channel
+
+66
+00:05:30,578 --> 00:05:33,517
+thank you for watching
